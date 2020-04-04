@@ -7,7 +7,7 @@ Settings for Simplify 3D for various printers
 `G28;     // Home Z in the middle of the bed`
 `G1 Z0;   // This will move the head to zero height;`
 
-### Important for autoleveling. Make sure you dont go too far negative or you will damange your bed
+**Important for autoleveling. Make sure you dont go too far negative or you will damange your bed**
 `M211 S0; // This will disable the end stops so that you `
 `         // will be able to proceed lower than Z=0`
          
